@@ -19,7 +19,7 @@ groups, replies, users = load("groups.json"), load("replies.json"), load("users.
 async def start(u: Update, c: ContextTypes.DEFAULT_TYPE):
     user = u.effective_user
     kb = InlineKeyboardMarkup([
-        [InlineKeyboardButton("📢 Channel", url="https://t.me/BOTSPTE")],
+        [InlineKeyboardButton("📢 Channel", url="https://t.me/tear80808")],
         [InlineKeyboardButton("👑 Owner", url="https://t.me/Tear808")],
         [InlineKeyboardButton("➕ Group ထဲသို့ထည့်ရန်", url="https://t.me/myaigroup_ai_bot?startgroup=true")]
     ])
